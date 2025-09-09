@@ -58,4 +58,4 @@ jobs:
           slot-name: 'Production'
           package: .
 
-          publish-profile: ${{ secrets.PUBLISH-PROFILE }}
+          publish-profile: ${{ secrets.PUBLISH_PROFILE }}
