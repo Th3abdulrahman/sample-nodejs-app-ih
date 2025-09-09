@@ -48,13 +48,13 @@ jobs:
         id: deploy-to-webappb
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'my-first-webapp-Rashid'
+          app-name: 'abdulrhaman-webapp'
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'AppDanahNew'
+          app-name: 'abdulrhaman-webapp'
           slot-name: 'Production'
           package: .
 
